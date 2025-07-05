@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Kannasol',
+      title: 'youtube',
       theme: ThemeData(
         primaryColor: Color.fromRGBO(33, 150, 243, 1),
         colorScheme: ColorScheme.fromSeed(
@@ -52,14 +52,14 @@ class _WebViewScreenState extends State<WebViewScreen> {
         ),
       )
       ..enableZoom(true)
-      ..loadRequest(Uri.parse('https://kannasol.xyz/'));
+      ..loadRequest(Uri.parse('https://youtube.com'));
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Kannasol'),
+        title: Text('youtube'),
         backgroundColor: Color.fromRGBO(33, 150, 243, 1),
         foregroundColor: Colors.white,
         actions: [
